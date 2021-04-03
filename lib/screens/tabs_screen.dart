@@ -39,7 +39,7 @@ class _TabsScreenState extends State<TabsScreen> {
       backgroundColor: Theme.of(context).backgroundColor,
       appBar: AppBar(
         title: Text(
-          "Dushi Bets",
+          "MobileApp-Template",
           style: TextStyle(color: Theme.of(context).accentColor),
         ),
       ),

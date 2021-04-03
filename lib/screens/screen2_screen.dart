@@ -1,7 +1,4 @@
-import '../widgets/showupwindow.dart';
-import '../widgets/errorwindow.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 class Screen2 extends StatefulWidget {
   static const routeName = '/screen2';
