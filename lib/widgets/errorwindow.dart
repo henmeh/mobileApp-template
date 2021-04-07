@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-errorWindow(ctx, String title, dynamic content, [Function toDo]) {
+errorWindow({ctx, String title, dynamic content, Function toDo}) {
   return showDialog(
     context: ctx,
     builder: (ctx) => AlertDialog(

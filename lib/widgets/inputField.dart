@@ -10,7 +10,8 @@ inputField(
     double bottomMargin,
     FocusNode node1,
     FocusNode node2,
-    Function onSubmitted}) {
+    Function onSubmitted,
+    List arguments}) {
   return Container(
     margin:
         EdgeInsets.fromLTRB(leftMargin, topMargin, rightMargin, bottomMargin),
@@ -24,9 +25,7 @@ inputField(
       focusNode: node2,
       decoration: InputDecoration(labelText: labelText),
       onFieldSubmitted: (value) {
-        onSubmitted(value);
-        //FocusScope.of(_ctx).requestFocus(_node1);
-        //widget.betNameController = value;
+        onSubmitted(arguments, value);
       },
     ),
   );
