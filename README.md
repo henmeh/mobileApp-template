@@ -1,16 +1,24 @@
-# mobile_app_template
+# moible_app_template
 
-A new Flutter project.
+This is a simple template for a mobile application with Flutter. It contains 
 
-## Getting Started
+- TabBar
 
-This project is a starting point for a Flutter application.
+- Bottomnavigation Bar
 
-A few resources to get you started if this is your first Flutter project:
+- AppDrawer
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- page Navigation
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Widgets for Raised Buttons
+
+- Widgets for TextinputFields
+
+- Widgets for Showup dialog window
+
+
+![plot](./images/image1.png)
+![plot](./images/image2.png)
+![plot](./images/image3.png)
+![plot](./images/image4.png)
+![plot](./images/image5.png)
