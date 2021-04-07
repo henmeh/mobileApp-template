@@ -1,4 +1,5 @@
 //import './providers/markets.dart';
+import '../screens/nav_screen.dart';
 import './screens/screen1_screen.dart';
 import './screens/screen3_screen.dart';
 import './screens/screen2_screen.dart';
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
         "/": (ctx) => TabsScreen(0),
         Screen1.routeName: (ctx) => Screen1(),
         Screen2.routeName: (ctx) => Screen2(),
-        Screen3.routeName: (ctx) => Screen3()
+        Screen3.routeName: (ctx) => Screen3(),
+        NavScreen.routeName: (ctx) => NavScreen()
       },
       //),
     );

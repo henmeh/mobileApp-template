@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_app_template/widgets/raisedButton.dart';
-import 'package:mobile_app_template/widgets/showupwindow.dart';
+import '../widgets/raisedButton.dart';
+import '../widgets/showupwindow.dart';
 
 class TabScreen1 extends StatelessWidget {
   _toDo(_arguments) {
